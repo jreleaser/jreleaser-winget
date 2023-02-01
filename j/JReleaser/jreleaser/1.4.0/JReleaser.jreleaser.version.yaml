@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.5.0-SNAPSHOT at 2023-02-01T15:12:06.78174+01:00
+# Generated with JReleaser 1.5.0-SNAPSHOT at 2023-02-01T15:22:05.622107+01:00
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.1.0.schema.json
 
 PackageIdentifier: JReleaser.jreleaser
