@@ -1,8 +1,0 @@
-# Generated with JReleaser 1.10.0-SNAPSHOT at 2023-12-31T16:01:47.022516386Z
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.4.0.schema.json
-
-PackageIdentifier: JReleaser.jreleaser
-PackageVersion: 1.10.0
-DefaultLocale: en-US
-ManifestType: version
-ManifestVersion: 1.4.0
