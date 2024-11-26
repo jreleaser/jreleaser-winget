@@ -34,8 +34,9 @@ jobs:
           BRANCH=jreleaser-${{ github.ref_name }}
           cd winget-pkgs   
           git checkout -b $BRANCH
-          cp -r ../main/manifests manifests
+          cp -r ../main/manifests/* manifests
+          git add manifests
           git config --global user.email "${{ secrets.AUTHOR_EMAIL }}"
           git config --global user.name "${{ secrets.AUTHOR_NAME }}"
-          git commit -a -m "jreleaser: update to version ${{ github.ref_name }}"
+          git commit -a -m "New Version: JReleaser.jreleaser version ${{ github.ref_name }}"
           git push origin $BRANCH
