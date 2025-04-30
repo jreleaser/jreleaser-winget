@@ -34,6 +34,7 @@ jobs:
           BRANCH=jreleaser-${{ github.ref_name }}
           cd winget-pkgs   
           git checkout -b $BRANCH
+          cp -r manifests/j/JReleaser/jreleaser/* ../main/manifests/j/JReleaser/jreleaser/
           cp -r ../main/manifests/* manifests
           git add manifests
           git config --global user.email "${{ secrets.AUTHOR_EMAIL }}"
