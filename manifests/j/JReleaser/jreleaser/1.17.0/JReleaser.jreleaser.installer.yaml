@@ -1,22 +1,27 @@
-# Generated with JReleaser 1.17.0-SNAPSHOT at 2025-02-28T08:12:05.668760258Z
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+# Created with WinGet Updater using komac v2.10.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 
 PackageIdentifier: JReleaser.jreleaser
 PackageVersion: 1.17.0
-MinimumOSVersion: 10.0.0.0
+InstallerLocale: en-US
 InstallerType: wix
 Scope: machine
 InstallModes:
-  - silent
-  - silentWithProgress
+- silent
+- silentWithProgress
 UpgradeBehavior: install
 Commands:
-  - jreleaser
+- jreleaser
+ProductCode: '{2F3CE50F-22AB-3CDE-B7A0-0A0F597FBDC8}'
 ReleaseDate: 2025-02-28
+AppsAndFeaturesEntries:
+- ProductCode: '{2F3CE50F-22AB-3CDE-B7A0-0A0F597FBDC8}'
+  UpgradeCode: '{3D0E8D15-CF1B-32B1-B479-86F8424F8C46}'
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%/jreleaser'
 Installers:
-  - Architecture: x64
-    InstallerUrl: https://github.com/jreleaser/jreleaser/releases/download/v1.17.0/jreleaser-installer-1.17.0-windows-x86_64.msi
-    InstallerSha256: 4fb824d810ce2bc1031eeaff1da965e33e26c26596d5a8c66c8ee8dd177023ea
-    ProductCode: 'jreleaser 1.17.0'
+- Architecture: x64
+  InstallerUrl: https://github.com/jreleaser/jreleaser/releases/download/v1.17.0/jreleaser-installer-1.17.0-windows-x86_64.msi
+  InstallerSha256: 4FB824D810CE2BC1031EEAFF1DA965E33E26C26596D5A8C66C8EE8DD177023EA
 ManifestType: installer
-ManifestVersion: 1.6.0
+ManifestVersion: 1.9.0
