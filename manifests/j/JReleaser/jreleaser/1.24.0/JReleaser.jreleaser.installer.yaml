@@ -1,0 +1,22 @@
+# Generated with JReleaser 1.24.0-SNAPSHOT at 2026-04-30T11:17:23.903587413Z
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: JReleaser.jreleaser
+PackageVersion: 1.24.0
+MinimumOSVersion: 10.0.0.0
+InstallerType: wix
+Scope: machine
+InstallModes:
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+Commands:
+  - jreleaser
+ReleaseDate: 2026-04-30
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/jreleaser/jreleaser/releases/download/v1.24.0/jreleaser-installer-1.24.0-windows-x86_64.msi
+    InstallerSha256: 767e69a77477549e8fe053bc3bcc7fcf788235224be2c8693a035acf67597fa4
+    ProductCode: 'jreleaser 1.24.0'
+ManifestType: installer
+ManifestVersion: 1.9.0
